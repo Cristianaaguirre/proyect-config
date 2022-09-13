@@ -6,3 +6,8 @@ configuration:
       tll: 0
       maxIdleTime: 0
       masSize: 0
+mapas:
+  map:
+    Hello: Hola
+    By: Adios
+    Word: Palabra
