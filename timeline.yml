@@ -7,7 +7,6 @@ configuration:
       maxIdleTime: 0
       masSize: 0
 mapas:
-  map:
-    Hello: Hola
-    By: Adios
-    Word: Palabra
+  map: '{ "Hello": "Hola",
+          "By" : "Adios",
+          "Word" : "Palabra" }'
