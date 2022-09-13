@@ -1,0 +1,8 @@
+bootstrap.server: http://localhost:9092
+consumer.topic: created
+configuration:
+  config:
+    created:
+      tll:
+      maxIdleTime:
+      masSize:
