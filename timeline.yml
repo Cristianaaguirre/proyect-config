@@ -2,5 +2,4 @@ bootstrap.server: http://localhost:9092
 consumer.topic: created
 configuration:
   config:
-    created: '{ "created": {"tll" : "0", "maxIdleTime" : "0", "maxSize" : "0" }'
-
+    created={created: {tll: 0, maxIdleTime: 0, maxSize: 0}}
