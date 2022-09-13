@@ -3,6 +3,6 @@ consumer.topic: created
 configuration:
   config:
     created:
-      tll:
-      maxIdleTime:
-      masSize:
+      tll: 0
+      maxIdleTime: 0
+      masSize: 0
