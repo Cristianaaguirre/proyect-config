@@ -2,7 +2,12 @@ bootstrap.server: http://localhost:9092
 consumer.topic: created
 configuration:
   config:
-    created:
-      tll: 0 
-      maxIdleTime: 0 
-      maxSize: 0
+    created: tll=0, maxIdleTime=0, maxSize=0
+# spring:
+#   cache:
+#     cache-names: all_config_bundle, all_config_dependence, config_plan
+#     caffeine.spec: maximumSize=100, expireAfterAccess=0s
+#     caches:
+#       all_config_bundle: maximumSize=100, expireAfterAccess=0s
+#       all_config_dependence: maximumSize=100, expireAfterAccess=0s
+#       config_plan: maximumSize=100, expireAfterAccess=0s
