@@ -1,8 +1,8 @@
 bootstrap.server: http://localhost:9092
 
-list:
-  - created
-  - updated
-  - deleted
-  - follow
-  - unfollow
+list: created, updated, deleted, follow, unfollow
+#   - created
+#   - updated
+#   - deleted
+#   - follow
+#   - unfollow
